@@ -19,8 +19,6 @@ public static void main(String[] args) {
           System.out.println("La suma es: "+op.sumatoria());
           System.out.println("Promedio: "+ op.promediar());
           
-          //System.out.println((Math.random() * 10) + 1);
-          
     }
     
 }
