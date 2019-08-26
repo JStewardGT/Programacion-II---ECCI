@@ -15,10 +15,10 @@ public class Operaciones {
     
     private Arreglo numeriticos;//es un objeto de la clase Arreglo
 
-
     
-   
-        
+    
+    
+
     public void ordenar(Arreglo pArreglo){
          numeriticos =pArreglo;
          int temporal=0;
@@ -42,29 +42,28 @@ public class Operaciones {
 //           total+= sumatoria;
 //         }
 //         
-         while(i <numeriticos.Numeros.length){
-          suma+= numeriticos.Numeros[i]; 
+         while(i < numeriticos.Numeros.length){
+          suma += numeriticos.Numeros[i]; 
           i++;
          }
         return suma;
-        
         
         }
     
     public double promediar(){
         
         int i=0;
-        double suma=0;
+        double promedio=0;
 //         for (double promedio: numeriticos.Numeros){
 //           total+= promedio / numeriticos.Numeros.length;
 //         }
          while(i <numeriticos.Numeros.length){
-          suma+= numeriticos.Numeros[i]; 
+          promedio+= numeriticos.Numeros[i]; 
           i++;
          }
-         suma = suma /numeriticos.Numeros.length;
+         promedio = promedio / numeriticos.Numeros.length;
          
-        return suma;
+        return promedio;
         }
 
 }

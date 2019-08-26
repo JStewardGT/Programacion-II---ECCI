@@ -21,17 +21,15 @@ public class Arreglo {
         Numeros= new int[i];
         
         for(int x = 0; x<Numeros.length;x++ ){
-            
-           Numeros[x]= (int) (Math.random() * x+6) + 1;
+           Numeros[x]= (int) (Math.random() * 100) + 1;
         }
     }
     
     public void imprimirArreglo(){
     
-//     for (int numerito : Numeros) {
-//            System.out.println(numerito);
-//            
-//        }
+    /*for (int numerito : Numeros) {
+        System.out.println(numerito);
+    }*/
         
          System.out.println(Arrays.toString(Numeros));
     }
